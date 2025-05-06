@@ -1,0 +1,112 @@
+.container{
+	width:580px;
+	text-align:center;
+}
+
+.DIRlink{
+	text-decoration: none ! important;
+	color: #00589E ! important;
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.DIRlink:hover{
+	text-decoration: underline ! important;
+}
+/* --------------------------------------- */	
+
+.container .DIR{
+	background: url(../../webimages/bgimages/aboutus/director_panel.gif) top center no-repeat; 
+	text-align:center;
+	padding-top:40px;
+	color:#00589E;
+	text-decoration:none;
+}
+
+
+/* --------------------------------------- */	
+
+.COdivisions, .ROdivisions {
+	text-align:left;
+	width:230px;
+	padding-left:20px;
+	padding-right:20px;
+	margin:0px;
+	float:left;
+	height:550px;
+}
+
+/* --------------------------------------- */		
+
+.COdivisions .node dt a{
+	text-decoration: none;
+	color:#993333;
+	font-family:Arial;
+	font-size: 10pt;
+}
+
+.COdivisions .node dd a{
+	text-decoration: none;
+	font-family:Arial;
+	font-size: 10pt;
+	color:#00589E;
+}
+
+.COdivisions .node a:hover{
+	text-decoration: underline;
+}
+
+.COdivisions .title{
+	width: 218px;
+	height: 25px;
+	background-image: url(../../webimages/bgimages/aboutus/co_divisions.gif);
+}
+
+.COdivisions .node dd{
+	font-size: 10pt;
+	color:#993333;
+}
+.COdivisions .node dt{
+	font-size: 11pt;
+	font-weight:bold;
+	background: url(../../webimages/bgimages/aboutus/red_star.gif) top left no-repeat;
+	padding-left:15px;
+}
+
+/* --------------------------------------- */
+			
+.ROdivisions .node dt a{
+	font-family:Arial;
+	font-size: 10pt;
+	text-decoration: none;
+	color:#336666;
+}
+
+.ROdivisions .node dd a{
+	font-family:Arial;
+	font-size: 10pt;
+	text-decoration: none;
+	color:#00589E;
+}
+
+.ROdivisions .node a:hover{
+	text-decoration: underline;
+}
+
+.ROdivisions .title{
+	width: 218px;
+	height: 25px;
+	background-image: url(../../webimages/bgimages/aboutus/ro_divisions.gif);
+}
+
+.ROdivisions .node dd{
+	font-size: 10pt;
+	color:#336666;
+}
+.ROdivisions .node dt{
+	font-size: 11pt;
+	font-weight:bold;
+	background: url(../../webimages/bgimages/aboutus/icon_star.jpg) top left no-repeat;
+	padding-left:15px;
+}

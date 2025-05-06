@@ -1,0 +1,8 @@
+-qwC2%Ps0u1%h%s%uN0%I0p3DaK0c4H0%kf2A50000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2007], %s -->" -%l "en, en, *" http://www.bop.gov/inmate_programs/designations.jsp -O1 "T:\\Brandon\\Bureau of Prisons\\BOP Designations" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+File generated automatically on Mon, 19 May 2008 12:51:31, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

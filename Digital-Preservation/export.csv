@@ -1,0 +1,3 @@
+"ID","PARENT_ID","URI","FILE_PATH","NAME","METHOD","STATUS","SIZE","TYPE","EXT","LAST_MODIFIED","EXTENSION_MISMATCH","HASH","FORMAT_COUNT","PUID","MIME_TYPE","FORMAT_NAME","FORMAT_VERSION"
+"2","","file:/home/jansen/Downloads/fade.gif","/home/jansen/Downloads/fade.gif","fade.gif","Signature","Done","828","File","gif","2022-03-10T12:57:12","false","","1","fmt/4","image/gif","Graphics Interchange Format","89a"
+"3","","file:/home/jansen/Downloads/test.docx","/home/jansen/Downloads/test.docx","test.docx","Container","Done","362571","File","docx","2022-03-10T12:56:55","false","","1","fmt/412","application/vnd.openxmlformats-officedocument.wordprocessingml.document","Microsoft Word for Windows","2007 onwards"

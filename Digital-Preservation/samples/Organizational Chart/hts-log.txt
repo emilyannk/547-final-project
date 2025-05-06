@@ -1,0 +1,38 @@
+HTTrack3.42+htsswf+htsjava launched on Mon, 19 May 2008 10:31:53 at http://www.bop.gov/about/organization.jsp +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0c4H0%kf2A50000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2007], %s -->" -%l "en, en, *" http://www.bop.gov/about/organization.jsp -O1 "T:\Brandon\Bureau of Prisons\BOP org charts" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:36:23	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/leftnav/subject_about.gif
+10:36:50	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/leftnav/left_repeat.jpg
+10:37:14	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/public/arrow.gif
+10:37:40	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/mission.jsp
+10:38:05	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/public/arrow.gif
+10:38:30	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/history.jsp
+10:38:53	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/history/heroes.jsp
+10:39:18	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/history/directors.jsp
+10:39:41	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/history/alcatraz.jsp
+10:40:05	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/history/execchart.jsp
+10:40:31	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/public/arrow.gif
+10:40:53	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/co/index.jsp
+10:41:17	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/other/gra.jsp
+10:41:42	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/ro/index.jsp
+10:42:08	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/train/index.jsp
+10:42:33	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/public/arrow.gif
+10:42:57	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/public/arrow.gif
+10:43:22	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/facts.jsp
+10:43:44	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/public/arrow.gif
+10:44:09	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/public/arrow.gif
+10:44:34	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/leftnav/left_chip.gif
+10:44:58	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/leftnav/left_curve.gif
+10:45:21	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/bgimages/printer.gif
+10:45:46	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/public/banners/greybar_page_title.gif
+10:46:09	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/bgimages/aboutus/blue_bullet.gif
+10:46:36	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/co/director_bio.jsp
+10:46:59	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/bgimages/aboutus/bracket.gif
+
+HTTrack Website Copier/3.42 mirror complete in 25 minutes 59 seconds : 122 links scanned, 121 files written (1683488 bytes overall) [1714542 bytes received at 1099 bytes/sec]
+(No errors, 27 warnings, 0 messages)

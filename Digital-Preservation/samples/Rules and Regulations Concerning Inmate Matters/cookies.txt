@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.bop.gov	TRUE	/	FALSE	1999999999	JSESSIONID	6AE9B2DD14580BA5E5E50F69ED5C25A7
+

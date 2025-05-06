@@ -1,0 +1,41 @@
+HTTrack3.42+htsswf+htsjava launched on Mon, 19 May 2008 10:26:41 at http://www.bop.gov/about/history.jsp +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0c4H0%kf2A50000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2007], %s -->" -%l "en, en, *" http://www.bop.gov/about/history.jsp -O1 "T:\Brandon\Bureau of Prisons\History of BOP" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:28:16	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/public/header/top_middle.gif
+10:28:41	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/public/header/usdoj.gif
+10:36:25	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/train/graphics/GLN.jpg
+10:36:56	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/common/styles/org_chart_style.css
+10:37:21	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/bgimages/aboutus/blue_bullet.gif
+10:37:46	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/bgimages/aboutus/bracket.gif
+10:38:11	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/co/director_bio_admin.jsp
+10:38:35	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/co/director_bio_programs.jsp
+10:38:59	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/co/director_bio_hrmd.jsp
+10:39:23	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/co/director_bio_ievt.jsp
+10:39:47	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/co/director_bio_ippa.jsp
+10:40:11	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/co/director_bio_nic.jsp
+10:40:34	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/co/director_bio_ogc.jsp
+10:40:58	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/co/director_bio_prd.jsp
+10:41:22	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/ro/bios/mxr.jsp
+10:41:51	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/ro/bios/ncr.jsp
+10:42:14	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/ro/bios/ner.jsp
+10:42:37	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/ro/bios/scr.jsp
+10:43:02	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/ro/bios/ser.jsp
+10:43:27	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/about/ro/bios/wxr.jsp
+10:43:54	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/cell_rounder_L.gif
+10:44:19	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/cell_rounder_R.gif
+10:44:43	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/cell_rounder_L.gif
+10:45:06	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/cell_rounder_R.gif
+10:45:32	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/cell_rounder_L.gif
+10:45:57	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/cell_rounder_R.gif
+10:46:20	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/cell_rounder_L.gif
+10:46:43	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/cell_rounder_R.gif
+10:47:08	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/cell_rounder_L.gif
+10:47:44	Warning: 	link is probably looping, type unknown, aborting: www.bop.gov/webimages/cell_rounder_L.gif
+
+HTTrack Website Copier/3.42 mirror complete in 25 minutes 22 seconds : 115 links scanned, 114 files written (1644496 bytes overall) [1673972 bytes received at 1099 bytes/sec]
+(No errors, 30 warnings, 0 messages)

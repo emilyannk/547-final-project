@@ -1,0 +1,383 @@
+<HTML>
+
+
+<!-- Mirrored from www.bop.gov/about/ro/index.jsp by HTTrack Website Copier/3.x [XR&CO'2007], Wed, 04 Feb 2009 17:17:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+<HEAD>
+<TITLE>BOP: Regional Offices Main Page</TITLE>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+<LINK REL="stylesheet" TYPE="text/css" HREF="http://www.bop.gov/common/styles/new_bop_style.css">
+
+
+</HEAD>
+
+
+<BODY ONLOAD="preloadImages();">
+
+<!-- ############## Top Navigation Header JSP ############## -->
+<div class="position-header">
+
+<!-- This is a comment-->
+<link rel="stylesheet" type="text/css" href="http://www.bop.gov/common/styles/bop_style_printfriendly.css" media="print" title="printerFriendly" id="printerFriendly"/>
+
+<!-- link rel="alternate stylesheet" type="text/css" href="/common/styles/bop_style_printfriendly.css" disabled="disabled" media="screen" title="printerFriendly" id="printerFriendly" /> -->
+
+
+<link rel="SHORTCUT ICON" href="http://www.bop.gov/bop_icon.ico" />
+
+<script language="javascript" type="text/javascript">
+  //<![CDATA[
+  
+  // BREAK OUT OF FRAMES IF LINKED FROM ANOTHER PAGE
+  if (parent.frames.length > 0) {
+      parent.location.href = self.document.location
+  }
+
+  // FUNCTION FOR ACTIVATING PRINT DIALOG BOX
+  function printArticle() {
+    if (window.print) {
+      setTimeout('window.print();',200);
+    }
+    else if (agt.indexOf("mac") != -1) {
+      alert("Press 'Cmd+p' on your keyboard to print article.");
+    }
+    else {
+      alert("Press 'Ctrl+p' on your keyboard to print article.")
+    }
+  }
+  
+  function preloadImages(){}
+
+
+ // FUNCTIONS ARE USED FOR THE PRINT FRIENDLY VERSION FOR STRIPING AND RESTORING THE NAVIGATION
+ 	var printFriend = false;
+  
+    function printFriendly() {
+         document.getElementById("printerFriendly").disabled = false;
+   }
+
+  function showNav() {
+    if(document.getElementsByTagName) { 
+         document.getElementById("sideNav").style.display='block';
+		 document.getElementById("topNav").style.display='block';
+		 document.getElementById("prtfriendtext").style.display='none';
+	    document.getElementsByTagName('link')[2].disabled=false;
+		document.getElementsByTagName('link')[1].disabled=true;
+       }
+   }
+ 
+
+  function checkEmpty(){
+    var selBox = document.getElementsByName("as_sitesearch");
+    var sBox = document.getElementById("searchBox");
+    
+    if(sBox.value == "" && selBox[0].checked){selBox[0].value = "";}
+    else if(sBox.value != "" && selBox[0].checked){selBox[0].value = "www.bop.gov";}
+    
+    return true;
+  }
+
+  //]]>
+</script>
+
+<div id="topNav">
+
+  <div id="nav_core">
+    <a href="http://www.bop.gov/" class="sp1 xsm b" title="Federal Bureau of Prisons Home Page">Home</a>
+    <a href="http://www.bop.gov/sitemap.jsp" class="bullet sp1 xsm b" title="Site Map">Site Map</a>
+    <a href="http://www.bop.gov/about/contactus.jsp" class="bullet sp1 xsm b" title="Contact The Federal Bureau of Prisons">Contact Us</a>
+  </div>
+
+  <div id="nav_search">
+    <table cellpadding="0" cellspacing="0" border="0" >
+      <tr>
+        <td style="padding-left:6px;">
+          <a href="http://www.bop.gov/index.jsp" title="Federal Bureau of Prisons Home Page"><img border="0" src="http://www.bop.gov/webimages/public/header2/icon_seal.gif" alt="BOP Seal" /></a>
+        </td>
+        <td style="padding-left:9px;">
+          <a href="http://www.bop.gov/" title="Federal Bureau of Prisons Home Page"><img border="0" src="http://www.bop.gov/webimages/public/header2/title_bop.gif" alt="Federal Bureau of Prisons" /></a><br />
+          <div id="agency_info" class="xsm">An agency of the <a class="sp2" target="_BLANK" title="U.S. Department of Justice Website (http://www.usdoj.gov/)" href="http://www.usdoj.gov/">U.S. Department of Justice</a></div>
+        </td>
+        <td style="padding-left:95px;">
+          <img alt="Search" src="http://www.bop.gov/webimages/public/header2/title_search.gif" /> 
+        </td>
+        <td valign="middle" style="padding-left:5px;">
+          <form action="http://searchjustice.usdoj.gov/search" method="get" style="padding:0px; margin:0px;" onsubmit="return checkEmpty();">
+            <input id="searchBox" type="text" name="q" size="25" />
+            <select name="as_sitesearch">
+              <option value="www.bop.gov">Website</option>
+              <option value="www.bop.gov/locations">Facilities</option>
+              <option value="www.bop.gov/policy">Policy</option>
+            </select>
+            <input name="output" value="xml_no_dtd"  type="hidden" />
+            <input name="client" value="default_frontend"  type="hidden" />
+            <input name="proxystylesheet" value="bop"  type="hidden" />
+            <input type="submit" value="Go" />
+          </form>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="nav_main">
+    <table id="nav_main_table">
+      <tr>
+        <td><a title="About The Bureau of Prisons" href="http://www.bop.gov/about/index.jsp" class="sp3 xsm b" style="border:none !important;">About</a></td>
+        <td><a title="Inmate Locator" href="http://www.bop.gov/iloc2/LocateInmate.jsp" class="sp3 xsm b">Inmate Locator</a></td>
+        <td><a title="Prison Facilities" href="http://www.bop.gov/locations/index.jsp" class="sp3 xsm b">Prison Facilities</a></td>
+        <td><a title="Careers" href="http://www.bop.gov/jobs/index.jsp" class="sp3 xsm b">Careers</a></td>
+        <td><a title="Inmate Matters" href="http://www.bop.gov/inmate_programs/index.jsp" class="sp3 xsm b">Inmate Matters</a></td>
+        <td><a title="Policy/Forms" href="http://www.bop.gov/policy/index.jsp" class="sp3 xsm b">Policy/Forms</a></td>
+        <td><a title="Doing Business With the Bureau of Prisons" href="http://www.bop.gov/business/index.jsp" class="sp3 xsm b">Doing Business</a></td>
+        <td><a title="News/Information" href="http://www.bop.gov/news/index.jsp" class="sp3 xsm b">News/Information</a></td>
+      </tr>
+    </table>    
+  </div>
+
+  <div id="nav_shadow"> </div>
+
+				 	
+<div id="prtfriendtext" style="display:none;">
+	<div style="position:relative; left: 5px; top: 0px; z-index:10;">
+	<table width="585" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+		<td width="246" align="left" valign="bottom"><img border="0" src="http://www.bop.gov/webimages/bgimages/BOP_print_logo.gif" width="246" alt="Print" />&nbsp;</td>
+		<td width="218" align="left" valign="bottom">&nbsp;</td>
+		<td width="121" align="left" valign="bottom">
+          <map id="printmap" name="printmap">
+            <area id="maparea" alt="Return to Website" coords="8,0,112,11" onmouseover="window.status='Click To Return to Original View (Includes Navigation) '; return true;" onmouseout="window.status=' ';return true;" href="#" onclick="showNav();" />
+            <area alt="Click to Print" coords="3,56,119,32" href="javascript:printArticle();" />
+          </map>
+          <img border="0" alt="Click To Print This Page" src="http://www.bop.gov/webimages/bgimages/printfriendly.gif" usemap="#printmap" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3"><hr width="100%" size="1" /></td>
+      </tr>
+	</table>
+	</div>
+</div>
+
+</div>
+</div>
+
+
+<!-- ############## Side Navigation JSP ##############  -->
+<div class="position-sidenav">
+      <div id="nav">
+   <div id="nav_container">
+      <div id="nav_border">
+        <div id="nav_heading"><a href="http://www.bop.gov/about/index.jsp" class="sp4 b sm">About</a></div>
+          <table id="nav_table" cellpadding="0" cellspacing="2" border="0" class="xxsm">
+            <tr>
+              <td valign="top" align="right"><img src="http://www.bop.gov/webimages/public/arrow_blue.gif" alt="Item" /></td>
+			  <td valign="top" class="sp4">
+				<a href="http://www.bop.gov/about/mission.jsp" class="sp4">Mission &amp; Vision</a>
+              </td>
+            </tr>
+			<tr>
+              <td valign="top" align="right"><img src="http://www.bop.gov/webimages/public/arrow_blue.gif" alt="Item" /></td>
+              <td valign="top">
+				History<br />
+                <div class="indent">
+                  - <a href="http://www.bop.gov/about/history.jsp" class="sp4">Overview</a><br>
+                  - <a href="http://www.bop.gov/about/history/heroes.jsp" class="sp4">Fallen Heroes</a><br>
+                  - <a href="http://www.bop.gov/about/history/directors.jsp" class="sp4">Past Directors</a><br>
+                  - <a href="http://www.bop.gov/about/history/alcatraz.jsp" class="sp4">Alcatraz</a><br>
+                  <!-- closed facils here -->
+                  - <a href="http://www.bop.gov/about/history/execchart.jsp" class="sp4">Federal Executions</a>
+                </div>
+              </td>
+			</tr>
+			<tr>
+              <td valign="top" align="right"><img src="http://www.bop.gov/webimages/public/arrow_blue.gif" alt="Item" /></td>
+              <td valign="top">
+                Our Organization<br />
+                <div class="indent">
+                  - <a href="http://www.bop.gov/about/co/index.jsp" class="sp4">Central Office</a><br>
+                  - <a href="http://www.bop.gov/about/other/gra.jsp" class="sp4">Office Complexes</a><br>							
+                  - <a href="http://www.bop.gov/locations/index.jsp" class="sp4">Prison Facilities</a><br>
+                  - <a href="index.html" class="sp4">Regional Offices</a><br>
+                  - <a href="http://www.bop.gov/about/train/index.jsp" class="sp4">Staff Training Centers</a>
+                </div>
+              </td>
+			</tr>
+			<tr>
+              <td valign="top" align="right"><img src="http://www.bop.gov/webimages/public/arrow_blue.gif" alt="Item" /></td>  
+              <td valign="top">
+				<a href="http://www.bop.gov/about/organization.jsp" class="sp4">Organizational Chart</a>
+              </td>
+			</tr>
+			<tr>
+              <td valign="top" align="right"><img src="http://www.bop.gov/webimages/public/arrow_blue.gif" alt="Item" /></td>
+			  <td valign="top">
+				<a href="http://www.bop.gov/about/facts.jsp"  class="sp4">Quick Facts</a>
+              </td>
+			</tr>	
+			<tr>
+              <td valign="top" align="right"><img src="http://www.bop.gov/webimages/public/arrow_blue.gif" alt="Item" /></td>
+              <td valign="top">
+				<a href="http://www.bop.gov/news/index_research.jsp" class="sp4">Research & Reports</a>
+              </td>
+			</tr>						
+			<tr>
+              <td valign="top" align="right"><img src="http://www.bop.gov/webimages/public/arrow_blue.gif" alt="Item" /></td>
+			  <td valign="top">
+				Website Information<br />
+                <div class="indent">
+                  - <a href="http://www.bop.gov/access.jsp" class="sp4">Accessibility</a><br>
+                  - <a href="http://www.bop.gov/disclaimer.jsp" class="sp4">Disclaimer</a><br>
+                  - <a href="http://www.bop.gov/policy/privacypolicy.jsp" class="sp4">Privacy Policy</a><br>
+                  - <a href="http://www.bop.gov/browser_requirements.html" class="sp4">Browser Requirements</a><br>
+                </div>  
+              </td>
+			</tr>								
+        </table>
+      </div>
+   </div>
+</div>
+
+<!-- <div class="print" onclick="printFriendly();"><a href="#" class="sp1 xsm" title="Printer Friendly Version">Printer Friendly Version</a></div> -->
+	
+
+</div>
+
+
+
+<!-- ############## Start of Page Content large div tag, ends at bottom ############## -->
+
+<div class="position-content">
+
+<!-- ############## Title Image Here ############## -->
+
+<div id="page_title">About Regional Offices</div>
+
+<!-- start body content under page title -->
+<div class="position-body">
+<!-- body content table, ends at bottom of page content -->
+<table cellpadding="0" cellspacing="0" border="0" width="588">
+<tr>
+<td valign="top" width="370">
+<p class="bodytext" align="justify">
+The Bureau of Prisons has six regional
+offices that directly oversee the operations
+of the facilities within their respective
+regions of the country.</p>
+
+<p class="bodytext" align="justify">
+Regional office staff include a
+Regional Director and Deputy Regional
+Director, as well as administrators in such
+areas as human resource management,
+education, health services, financial management, 
+correctional services/programs, psychology services,
+chaplaincy services, facilities development
+and operations, legal services, computer
+services, inmate systems, safety,
+food service, and community corrections.
+
+<p class="bodytext" align="justify">
+Regional staff maintain close contact with facility
+staff with respect to all facets of Bureau
+operations. For example, they provide management
+and technical assistance to facility
+and community corrections personnel.
+They also conduct workshops, conferences,
+and specialized training programs; give
+technical assistance to state and local
+criminal justice agencies; and contract
+to provide offender
+placement in residential re-entry
+centers.
+</p>
+
+<table><tr><td width="370" align="center">
+	<img src="http://www.bop.gov/webimages/map_whole_sm.gif" width="343" height="154" border="0" alt="Map of our nationwide locations, seperated into regions" usemap="#US_Map">
+   <map name="US_Map">
+      <area shape="poly" alt="About Central Office" coords="239,63, 260,62, 271,54, 275,59, 343,59, 344,79, 284,79, 270,70, 266,73, 263,67, 243,66" href="http://www.bop.gov/about/co/index.jsp">
+      <area shape="poly" alt="Northeast Region" coords="197,45, 195,53, 200,65, 212,65, 221,55, 249,55, 267,35, 264,29, 277,13, 265,-2, 257,3, 256,12, 227,26, 213,28, 210,44" href="http://www.bop.gov/locations/maps/NER.jsp">
+      <area shape="poly" alt="North Central Region" coords="73,59, 69,83, 107,85, 136,85, 145,89, 167,89, 174,79, 178,80, 188,68, 196,40, 182,22, 156,17, 100,14, 97,26, 94,60" href="http://www.bop.gov/locations/maps/NCR.jsp">
+      <area shape="poly" alt="Mid-Atlantic Region" coords="176,95, 192,93, 215,90, 229,90, 237,95, 247,89, 252,78, 243,66, 237,64, 237,62, 248,63, 254,62, 247,56, 222,56, 213,68, 204,66, 192,72, 180,82" href="http://www.bop.gov/locations/maps/MXR.jsp">
+      <area shape="poly" alt="Southeast Region" coords="172,97, 168,104, 167,114, 168,119, 172,123, 177,130, 211,129, 220,147, 230,151, 236,140, 224,118, 235,97, 228,92, 214,92, 194,95" href="http://www.bop.gov/locations/maps/SER.jsp">
+      <area shape="poly" alt="South Central Region" coords="72,86, 67,120, 77,122, 95,139, 124,154, 145,135, 167,136, 172,126, 164,118, 165,109, 167,91, 144,91, 141,89" href="http://www.bop.gov/locations/maps/SCR.jsp">
+      <area shape="poly" alt="Western Region" coords="0,132, 21,123, 45,131, 62,127, 71,56, 92,57, 96,0, -8,-9, -20,154" href="http://www.bop.gov/locations/maps/WXR.jsp">
+   </map>
+</td></tr>
+</table>
+
+</td>
+<td width="8">&nbsp;</td>
+<td valign="top">
+	<div style="float:right; width:201px; margin-left:15px; padding-bottom:20px;">
+   <div><a href="index.html" title="About Regional Offices"><img border="0" src="http://www.bop.gov/webimages/cell_regionalOffices.gif" alt="Regional Offices"></a></div>
+   <div style="border-left:1px solid #abb1d1; border-right:1px solid #5a68a5; border-bottom:5px solid #5a68a5;" >
+      <ul class="xsm" style="padding:8px; margin-left:8px; margin:0px; list-style-type:none;">
+         <li style="padding-top:6px;"><a class="sp1 b" href="mxr/index.html">Mid-Atlantic Region</a> (MXR)</li>
+         <li style="padding-top:6px;"><a class="sp1 b" href="ncr/index.html">North Central Region</a>(NCR)</li>
+         <li style="padding-top:6px;"><a class="sp1 b" href="ner/index.html">Northeast Region</a> (NER)</li>
+         <li style="padding-top:6px;"><a class="sp1 b" href="scr/index.html">South Central Region</a> (SCR)</li>
+         <li style="padding-top:6px;"><a class="sp1 b" href="ser/index.html">Southeast Region</a> (SER)</li>
+         <li style="padding-top:6px;"><a class="sp1 b" href="wxr/index.html">Western Region</a> (WXR)</li>
+      </ul>
+   </div>
+</div>       
+</td>
+</table>
+
+
+<!-- ############## Footer JSP Goes Here ############## -->
+<center>
+
+
+			
+<br clear="all" />
+
+<div id="footer" style="clear:both; margin:60px 0px 30px 0px;">
+  <div style="text-align:center; margin-left:auto; margin-right:auto;">
+    <!-- <a class="sp5 xsm" style="border:none !important;" href="/index.jsp" title="Home">Home</a> | -->
+    <a class="sp5 xxsm" href="http://www.bop.gov/about/index.jsp" title="About">About</a> |
+    <a class="sp5 xxsm" href="http://www.bop.gov/inmate_locator/index.jsp" title="Inmate Locator">Inmate Locator</a> |
+    <a class="sp5 xxsm" href="http://www.bop.gov/locations/index.jsp" title="Prison Facilities">Prison Facilities</a> |
+    <a class="sp5 xxsm" href="http://www.bop.gov/jobs/index.jsp" title="Careers">Careers</a> | 
+    <a class="sp5 xxsm" href="http://www.bop.gov/inmate_programs/index.jsp" title="Inmate Matters">Inmate Matters</a> |
+    <a class="sp5 xxsm" href="http://www.bop.gov/policy/index.jsp" title="Policy/Forms">Policy/Forms</a> |
+    <a class="sp5 xxsm" href="http://www.bop.gov/business/index.jsp" title="Doing Business">Doing Business</a> |
+    <a class="sp5 xxsm" href="http://www.bop.gov/news/index.jsp" title="News/Information">News/Information</a>
+  </div>
+  <div style="text-align:center; margin-left:auto; margin-right:auto; margin-top:12px;">
+    <a class="sp5 xxsm b" href="http://www.bop.gov/access.jsp" title="Accessibility">Accessibility</a> |
+    <a class="sp5 xxsm b" href="http://www.bop.gov/browser_requirements.html" title="Browser Requirements">Browser Requirements</a> |
+    <a class="sp5 xxsm b" href="http://www.bop.gov/disclaimer.jsp" title="Disclaimer">Disclaimer</a> |
+    <a class="sp5 xxsm b" href="http://www.usdoj.gov/legalpolicies.htm" title="DOJ Legal Policies">DOJ Legal Policies</a> | 	
+	<a class="sp5 xxsm b" href="http://www.bop.gov/foia/index.jsp" title="FOIA">FOIA</a> |
+    <a class="sp5 xxsm b" href="http://www.bop.gov/news/nofearact.jsp" title="No FEAR Act">No FEAR Act</a> |
+	<a class="sp5 xxsm b" href="http://www.bop.gov/policy/privacypolicy.jsp" title="Privacy Policy">Privacy Policy</a>
+    <!-- 
+    <a class="sp5 xxsm b" href="http://searchjustice.usdoj.gov/search?q=&amp;output=xml_no_dtd&amp;client=default_frontend&amp;proxystylesheet=bop" title="Search">Search</a> | 
+    <a class="sp5 xxsm b" href="/sitemap.jsp" title="Site Map">Site Map</a>
+    -->
+  </div>
+</div>
+
+
+
+
+    
+</center>
+<!-- ############## END Footer JSP ############## -->
+
+ 
+<!-- end of body div tag -->
+</div>
+<!-- end of content div tag -->
+</div>
+
+</body>
+
+<!-- Mirrored from www.bop.gov/about/ro/index.jsp by HTTrack Website Copier/3.x [XR&CO'2007], Wed, 04 Feb 2009 17:17:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1"><!-- /Added by HTTrack -->
+</html>
+	
+		

@@ -1,0 +1,468 @@
+/* 
+		This style sheet is used by the Public website at www.bop.gov
+*/
+
+
+ /* ################   Positioning Styles   ################ */
+ 
+.position-header {
+
+	position:absolute; ! important;
+	top: 0px; ! important;
+	left: 0px; ! important;
+	z-index: 1; ! important;
+}
+
+.position-sidenav {
+
+position:absolute; ! important;
+top: 140px; ! important;
+left: 0px; ! important;
+z-index: 1; ! important;
+
+}
+
+.position-content {
+
+position:absolute; ! important; 
+top: 108px; ! important; 
+left: 184px; ! important; 
+z-index: 3; ! important;
+
+}
+
+.position-title {
+
+position:absolute; ! important; 
+top: -5px; ! important; 
+left: 10px; ! important; 
+z-index: 4; ! important; 
+
+}
+
+.position-title-greybar {
+
+position:absolute;  ! important; 
+top: 49px;  ! important; 
+left: 0px;  ! important; 
+z-index: 3; ! important; 
+
+}
+
+
+.position-body {
+
+position:absolute;  ! important; 
+top: 69px;  ! important; 
+left: 0px;  ! important; 
+z-index: 3;  ! important; 
+width: 588px; ! important; 
+
+}
+
+.maplegend {
+
+position: absolute; 
+left: 340px;
+top: -70px;
+z-index: 14;
+
+}
+
+.printerfriendly{
+position:absolute;
+left: 380px;
+top:-30px;
+}
+
+
+.homepageframe {
+		width:790px;
+		margin-right:auto;
+		margin-left:auto;
+		padding:0px;
+		}
+		
+.homepagecontentleft {
+		width:190px;
+		padding:0px;
+		float:left;
+		background:#fff;
+		}
+	
+.homepagecontentcenter {
+		width:600px;
+		padding:0px;
+		float:left;
+		background:#fff;
+		}
+			
+.homepagecontentheader {
+		padding:0px;
+		margin:0px;
+		}
+
+
+/* ################   Positions of Grey Pointers  (used in header.jsp) ################ */
+
+
+.position-about {
+
+position:absolute;  ! important; 
+top: 82px;  ! important; 
+left: 170px;  ! important; 
+z-index: 4; ! important; 
+
+}
+
+.position-locator {
+
+position:absolute;  ! important; 
+top: 84px;  ! important; 
+left: 215px;  ! important; 
+z-index: 4; ! important; 
+
+}
+
+.position-facilities {
+
+position:absolute;  ! important; 
+top: 83px;  ! important; 
+left: 268px;  ! important; 
+z-index: 4; ! important; 
+
+}
+
+.position-careers {
+
+position:absolute;  ! important; 
+top: 83px;  ! important; 
+left: 325px;  ! important; 
+z-index: 4; ! important; 
+
+}
+
+.position-programs {
+
+position:absolute;  ! important; 
+top: 85px;  ! important; 
+left: 385px;  ! important; 
+z-index: 4; ! important; 
+
+}
+
+.position-policy {
+
+position:absolute;  ! important; 
+top: 84px;  ! important; 
+left: 440px;  ! important; 
+z-index: 4; ! important; 
+
+}
+
+.position-business {
+
+position:absolute;  ! important; 
+top: 84px;  ! important; 
+left: 492px;  ! important; 
+z-index: 4; ! important; 
+
+}
+
+.position-news {
+
+position:absolute;  ! important; 
+top: 83px;  ! important; 
+left: 556px;  ! important; 
+z-index: 4; ! important; 
+
+}
+
+.position-foia {
+
+position:absolute;  ! important; 
+top: 85px;  ! important; 
+left: 385px;  ! important; 
+z-index: 4; ! important; 
+
+}
+
+.position-help {
+
+position:absolute;  ! important; 
+top: 85px;  ! important; 
+left: 385px;  ! important; 
+z-index: 4; ! important; 
+
+}
+
+
+.position_Fac_results {
+
+        position: absolute; ! important;
+        top:0;  ! important;
+        left:0px;  ! important;
+ }
+
+
+
+/* ################   FONTS   ################ */
+	
+/* ################   FONTS: Homepage  ################ */
+
+.pagetitle  {
+	color: #00589E;
+	font-size : 16pt;
+	font : 14pts;
+	font-family : Arial, Helvetica, sans-serif;
+	position: relative;
+	left: 20px;
+}
+
+.headlines {
+	text-decoration: none ! important;
+	color: #00589E ! important;
+	font-size : 8pt;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.facilities  {
+	color: #00589E;
+	font-size : 14pt;
+	font : /70%;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.mission  {
+	text-decoration: none ! important;
+	color: #00589E ! important;
+	font-size : 8pt;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.mission2  {
+	text-decoration: none ! important;
+	color: #00589E ! important;
+	font-size : 12pt;
+	font-family : Arial, Helvetica, sans-serif;
+	font : bold;
+}
+
+.sitemap{
+	text-decoration: underline;
+	color: #00589E ;
+	font-size : 10pt;
+	font-family : Arial;
+}
+
+
+.caption {
+	text-decoration: none ! important;
+	color: #00589E ! important;
+	font-size : 8pt;
+	font-family : Arial, Helvetica, sans-serif;
+	font : bold;
+}
+
+.caption_blue  {
+		font-family : Arial, Helvetica;
+		color: #0690FD;
+		font-size : 8pt
+	}
+
+.blue_text  {
+	text-decoration: none ! important;
+	color: #008EFF ! important;
+	font-size : 8pt;
+	font-family : Arial, Helvetica, sans-serif;
+	font : bold;
+}
+
+
+	
+/* ################   FONTS: General  ################ */
+
+.bodytext {
+	text-decoration: none ! important;
+	color: #00589E ! important;
+	font-size :9pt;
+	font-family : Arial, Helvetica, sans-serif;
+}
+	
+	
+.legend  {
+	text-decoration: none ! important;
+	color: #00589E ! important;
+	font-size :8pt;
+	font-family : Arial;
+}
+	
+.heading_white {
+	text-decoration: none ! important;
+	color: #ffffff ! important;
+	font-size :10pt;
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : bold;
+}
+
+.sidenav {
+	text-decoration: none ! important;
+	color: #00589E ! important;
+	font-size : 8pt ! important;
+	font-family : Arial;
+}
+
+	 
+ 
+.std_text  {
+		font-family : Arial, Helvetica;
+		color: #103B6E;
+		font-size : 10pt
+	}
+
+
+.reg_text{
+	text-decoration: none ! important;
+	color: #00589E ! important;
+	font-size :12pt;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+
+.sub_text  {
+		font-family : Arial, Helvetica;
+		color : #103B6E;
+		font-size : 8pt
+	}
+
+.footer {
+
+	text-decoration: none ! important;
+	color: #00589E ! important;
+	font-size : 8pt;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+.footer_over {
+
+	text-decoration: underline;  ! important;
+	color: #3E02FF ! important;
+	font-size : 8pt;
+	font-family : Arial, Helvetica, sans-serif;
+}
+	
+.h2_programs {
+	text-decoration: none ! important;
+	color: #00589E ! important;
+	font-size :11pt;
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : bolder;
+}
+	
+	
+
+.listing  {
+		font-family : Arial, Helvetica;
+		color: #00589E;
+		font-size : 8pt
+	}
+	
+
+.note  {
+	font-family : Arial, Helvetica;
+	color: #103B6E;
+	font-size : 8pt;
+	font-style : italic;
+	font-weight: bold;
+}
+
+.calendar_lg {
+	text-align : center;
+ 	Font-family : Arial;
+	Font-size : 10pt;
+	font-weight : bold;
+	color: #00589F;
+
+}
+
+.calendar_smR{
+	text-align : right;
+	font-family : Arial;
+ 	font-size : 8pt;
+	color: #000000;
+}
+
+
+.calendar_sm{
+	text-align : center;
+	font-family : Arial;
+ 	font-size : 8pt;
+	color: #000000;
+}
+	 
+ /* ################   LINKS   ################ */
+
+
+
+ /* 
+
+EXAMPLES
+
+a:link {color: #FF0000}     unvisited link
+a:visited {color: #00FF00}  visited link
+a:hover {color: #FF00FF}   mouse over link
+a:active {color: #0000FF}   selected link
+
+Note: a:hover MUST come after a:link and a:visited in the CSS definition in order to be 
+
+effective!!
+
+Note: a:active MUST come after a:hover in the CSS definition in order to be effective!!
+
+*/ 
+ 
+
+
+A:link { 
+		text-decoration: underline;
+		color: #0033FF
+	}
+	
+A:visited { 
+		text-decoration: underline;
+		color: #0033FF
+ }
+
+ A:hover { 
+		text-decoration: underline;
+		color: #000000;
+}
+
+
+ /* ################   SIDE NAVIGATION LINKS   ################ */
+ 
+.textnav {
+	text-decoration: none ! important;
+	font-family : Arial;
+	color: #3B6288  ! important;
+	font-size : 8pt;
+	font : bold ! important
+}
+
+.textnav_grey {
+	text-decoration: none ! important;
+	font-family : Arial;
+	color: #6186AB ! important;
+	font-size : 8pt;
+	font : bold ! important;
+	line-height: 150%
+}
+
+
+.content_title {
+	text-decoration: none ! important;
+	font-family : Arial;
+	color: #3B6288  ! important;
+	font-size : 12pt;
+	font : bold ! important
+}
